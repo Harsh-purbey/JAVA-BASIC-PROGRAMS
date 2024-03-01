@@ -25,7 +25,7 @@ public class EulephiAlgorithm {
 
 
         Scanner input = new Scanner(System.in);
-        System.out.println("enter the value : ");
+        System.out.print("enter the value : ");
         int n= input.nextInt();
         int phi_n=phi_n(n);
         System.out.println("relative coprime is "+phi_n);
